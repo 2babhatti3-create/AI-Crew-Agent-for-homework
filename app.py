@@ -2,7 +2,7 @@ import streamlit as st
 from crewai import Agent, Task, Crew, Process
 import os
 
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+os.environ["GROK_API_KEY"] = st.secrets["GROK_API_KEY"]
 
 st.title("Homework Helper Crew")
 
